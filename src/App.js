@@ -23,9 +23,7 @@ class App extends Component {
             <code>create-react-app my-app --scripts-version custom-react-scripts</code>
           </div>
 
-          <p> If you want to enable/disable certain features just modify the <b>.env</b> file in the root directory of
-              the
-              project.
+          <p>bla bla
           </p>
 
           <b> Styling </b>
