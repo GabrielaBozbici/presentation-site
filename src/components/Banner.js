@@ -13,7 +13,9 @@ export default class Banner extends Component {
                     <h1>Gabriela Bozbici</h1>
                     <span>Frontend developer with passion for beauty</span>
                 </div>
+                
             </div>
         )
     }
 }
+

@@ -1,11 +1,3 @@
-.resume{
-    // border: 2px solid red;
-    margin: 0px;
-   // padding: 20px 90px 20px 90px;
-    width: 100%;
-    height: 100%;
-}
-
 .resume {
     margin-bottom: 40px;
     h2 { //merge pus in app.less ca si section-title
@@ -16,5 +8,43 @@
     h3 {
         font-style: italic;
         margin-bottom: 30px;
+    }
+}
+.experience {
+    padding-top: 10px;
+}
+.eduCard {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.box {
+    background-color: #40cac5; //#119DA4
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 200px;
+
+    transition: all 2s ease;
+    &:hover {
+        background-color: #119DA4;
+        opacity: .9;
+        color: white;
+    }
+}
+
+.buttonCv {
+    background-color: #22A39F;
+    border: none;
+    color: #fff;
+    padding: 10px 10px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all 2s ease;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background-color: #40cac5;
     }
 }
