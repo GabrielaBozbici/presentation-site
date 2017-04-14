@@ -16,13 +16,20 @@ export default class Abilities extends Component {
                             <ul className="list-unstyled">
                                 <li>
                                     <span className="title">HTML5</span>
-                                    <span className="score pull-right">
+                                    <span className="score ">
                                         <span className="glyphicon glyphicon-star filled"></span>
                                         <span className="glyphicon glyphicon-star filled"></span>
                                         <span className="glyphicon glyphicon-star filled"></span>
                                     </span>
                                 </li>
-                                <li>CSS3</li>
+                                <li>
+                                    <span className="title">CSS3</span>
+                                    <span className="score ">
+                                        <span className="glyphicon glyphicon-star filled"></span>
+                                        <span className="glyphicon glyphicon-star filled"></span>
+                                        <span className="glyphicon glyphicon-star filled"></span>
+                                    </span>
+                                </li>
                                 <li>Bootstrap framework</li>
                                 <li>Less</li>
                                 <li>Version Control: Git</li>

@@ -16,7 +16,15 @@ import './App.scss';
 import './App.styl';
 
 class App extends Component {
+  
+  resizeChange(){
+    window.addEventListener('resize', function(event){
+      console.log('works');
+    });
+  }
+
   render() {
+    this.resizeChange();
     return (
       <div className="container-fluid">
         <NavigationBar />
@@ -32,3 +40,4 @@ class App extends Component {
 }
 
 export default App;
+

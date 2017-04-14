@@ -4,22 +4,18 @@ export default class NavigationBar extends Component {
     constructor(){
         super();
         this.state = {
-            isClicked: false
+            activeItem: '',
+            menuItems: ['Profile', 'Abilities', 'Resume', 'Contact me']
         }
     }
-    componentWllMount(){
-        console.log("initial state: ", this.state)
-    }
-    handleClick(){
-        let currentClickState = this.state.isClicked;
+    handleClick = (Item) => {
         this.setState({
-            isClicked: !currentClickState
+            activeItem: Item
         });
-        console.log("click", this.state)
     }
     render(){
         return(
-            <nav className="navbar navbar-default" role="navigation"data-spy="affix" data-offset-top="100">
+            <nav className="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="100">
                 <div className="navbar-header">
                     <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collpase">
                         <span className="icon-bar"></span>
@@ -30,10 +26,13 @@ export default class NavigationBar extends Component {
                 </div>
                 <div className="collapse navbar-collapse navbar-ex1-collpase">
                     <ul className="nav navbar-nav">
-                        <li className={this.state.isClicked ? "active" : ""} onClick={this.handleClick.bind(this)}>Profile</li>
-                        <li>Abilities</li>
-                        <li>Resume</li>
-                        <li>Contact me</li>
+                        {/*<li className={this.state.activeItem === "Profile"  ? "active" : "inactive"} onClick={ () => this.handleClick('Profile')}>Profile</li>
+                        <li className={this.state.activeItem === "Abilities" ? "active" : "inactive"} onClick={ () => this.handleClick('Abilities')}>Abilities</li>
+                        <li className={this.state.activeItem === "Resume" ? "active" : "inactive"} onClick={ () => this.handleClick('Resume')}>Resume</li>
+                        <li className={this.state.activeItem === "Contact me" ? "active" : "inactive"} onClick={ () => this.handleClick('Contact me')}>Contact me</li>*/}
+                        {this.state.menuItems.map((Item) => {
+                            return <li className={this.state.activeItem === Item ? "active" : ''} onClick={() => this.handleClick(Item)}>{Item}</li>
+                        })}
                     </ul>
                 </div>
             </nav>
