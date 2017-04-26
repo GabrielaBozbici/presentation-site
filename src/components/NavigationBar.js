@@ -31,7 +31,7 @@ export default class NavigationBar extends Component {
                         <li className={this.state.activeItem === "Resume" ? "active" : "inactive"} onClick={ () => this.handleClick('Resume')}>Resume</li>
                         <li className={this.state.activeItem === "Contact me" ? "active" : "inactive"} onClick={ () => this.handleClick('Contact me')}>Contact me</li>*/}
                         {this.state.menuItems.map((Item) => {
-                            return <li className={this.state.activeItem === Item ? "active" : ''} onClick={() => this.handleClick(Item)}>{Item}</li>
+                            return <li key={Item} className={this.state.activeItem === Item ? "active" : ''} onClick={() => this.handleClick(Item)}>{Item}</li>
                         })}
                     </ul>
                 </div>

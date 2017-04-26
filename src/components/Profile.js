@@ -13,19 +13,19 @@ export default class Profile extends Component{
                     <h3>Details</h3>
                     <ul className="list-unstyled">
                         <li>
-                            <span>Name: </span> Gabriela Bozbici
+                            <span className="detail">Name: </span> Gabriela Bozbici
                         </li>
                         <li>
-                            <span>Age:</span>27 years 
+                            <span className="detail">Age:</span>27 years 
                         </li>
                         <li>
-                            <span>Original from:</span>Romania 
+                            <span className="detail">Original from:</span>Romania 
                         </li>
                          <li>
-                            <span>Located in:</span>Prague (Czech Republic)
+                            <span className="detail">Location:</span>Prague (Czech Republic)
                         </li>
                          <li>
-                            <span>Profesion:</span>Frontend Developer
+                            <span className="detail">Profesion:</span>Frontend Developer
                         </li>
                     </ul>
                 </div>

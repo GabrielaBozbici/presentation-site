@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import NavigationBar from "./components/NavigationBar";
 import Banner from "./components/Banner.js";
 import Profile from "./components/Profile.js";
-import Abilities from "./components/Abilities.js";
+import Abilities from "./components/abilities/Abilities.js";
 import Resume from "./components/Resume.js";
 
 

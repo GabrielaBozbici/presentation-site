@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Abillity from './Ability';
 
 export default class Abilities extends Component {
     render(){
@@ -12,36 +13,24 @@ export default class Abilities extends Component {
                         <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <h3>Developer Skills</h3>
                         </div>
+
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                                <li>
-                                    <span className="title">HTML5</span>
-                                    <span className="score ">
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span className="title">CSS3</span>
-                                    <span className="score ">
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                        <span className="glyphicon glyphicon-star filled"></span>
-                                    </span>
-                                </li>
-                                <li>Bootstrap framework</li>
-                                <li>Less</li>
-                                <li>Version Control: Git</li>
+                                <Abillity title={'HTML5'} starsCount={4} />
+                                 <Abillity title={'CSS3'} starsCount={4} />
+                                 <Abillity title={'Bootstrap framework'} starsCount={3} />
+                                 <Abillity title={'LESS'} starsCount={3} />
+                                 <Abillity title={'Version Control'} starsCount={4} />
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                            <li>JavaScript</li>
-                            <li>React JS</li>
-                            <li>Flux</li>
-                            <li>JQuery</li>
-                            <li>Object Oriented Programming</li>
+                           
+                                <Abillity title={'JavaScript'} starsCount={4} />
+                                <Abillity title={'React JS'} starsCount={4} />
+                                <Abillity title={'Flux'} starsCount={4} />
+                                <Abillity title={'JQuery'} starsCount={4} />
+                                <Abillity title={'Object oriented programming'} starsCount={4} />
                             </ul>
                         </div>
                     </div>
@@ -51,18 +40,19 @@ export default class Abilities extends Component {
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                                <li>Mac OS</li>
-                                <li>Atom</li>
-                                <li>Visual Code Studio</li>
-                                <li>Sublime Text</li>
+                                <Abillity title={'Mac OS'} starsCount={4} />
+                                <Abillity title={'Atom'} starsCount={4} />
+                                <Abillity title={'Visual Studio Code'} starsCount={4} />
+                                <Abillity title={'Sublime Text'} starsCount={4} />
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                                <li>Chrome</li>
-                                <li>Chrome DevTools</li>
-                                <li>Windows</li>
-                                <li>MS Office Suite</li>
+                                <Abillity title={'Chrome'} starsCount={5} />
+                                <Abillity title={'Chrome DevTools'} starsCount={4} />
+                                <Abillity title={'Windows'} starsCount={4} />
+                                <Abillity title={'Microsoft Office Suite'} starsCount={4} />
+                                
                             </ul>
                         </div>
                     </div>
@@ -72,16 +62,18 @@ export default class Abilities extends Component {
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                                <li>Romanian (Native language)</li>
-                                <li>English (Advanced)</li>
-                                <li>Spanish (Medium)</li>
+                                <Abillity title={'Romanian (Native)'} starsCount={5} />
+                                <Abillity title={'English (Advanced)'} starsCount={5} />
+                                <Abillity title={'Spanish (Medium)'} starsCount={4} />
+                               
                             </ul>
                         </div>
                         <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
                             <ul className="list-unstyled">
-                            <li>French (Medium)</li>
-                            <li>Italian (Begginer)</li>
-                            <li>Dance (Latino)</li>
+                                <Abillity title={'French (Medium)'} starsCount={3} />
+                                <Abillity title={'Italian (Begginer)'} starsCount={2} />
+                                <Abillity title={'Dance (Latino)'} starsCount={4} />
+                          
                             </ul>
                         </div>
                     </div>
