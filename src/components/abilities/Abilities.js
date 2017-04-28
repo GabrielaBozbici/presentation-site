@@ -10,11 +10,11 @@ export default class Abilities extends Component {
                         <div className="col-sm-12 col">
                             <h2 className="text-center">Abilities</h2>
                         </div>
-                        <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <h3>Developer Skills</h3>
                         </div>
 
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                                 <Abillity title={'HTML5'} starsCount={4} />
                                  <Abillity title={'CSS3'} starsCount={4} />
@@ -23,7 +23,7 @@ export default class Abilities extends Component {
                                  <Abillity title={'Version Control'} starsCount={4} />
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                            
                                 <Abillity title={'JavaScript'} starsCount={4} />
@@ -35,10 +35,10 @@ export default class Abilities extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <h3>Tools</h3>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                                 <Abillity title={'Mac OS'} starsCount={4} />
                                 <Abillity title={'Atom'} starsCount={4} />
@@ -46,7 +46,7 @@ export default class Abilities extends Component {
                                 <Abillity title={'Sublime Text'} starsCount={4} />
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                                 <Abillity title={'Chrome'} starsCount={5} />
                                 <Abillity title={'Chrome DevTools'} starsCount={4} />
@@ -57,10 +57,10 @@ export default class Abilities extends Component {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <h3>Languages</h3>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                                 <Abillity title={'Romanian (Native)'} starsCount={5} />
                                 <Abillity title={'English (Advanced)'} starsCount={5} />
@@ -68,7 +68,7 @@ export default class Abilities extends Component {
                                
                             </ul>
                         </div>
-                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                        <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                             <ul className="list-unstyled">
                                 <Abillity title={'French (Medium)'} starsCount={3} />
                                 <Abillity title={'Italian (Begginer)'} starsCount={2} />

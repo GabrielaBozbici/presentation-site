@@ -1,6 +1,6 @@
 .about {
     margin-bottom: 40px;
-    h2 { //merge pus in app.less ca si section-title
+    h2 {
         width: 100%;
         padding-bottom: 30px;
         border-bottom: 1px solid #eee;
@@ -13,6 +13,8 @@
 .photo img {
     border-radius: 50%;
     width: 100%;
+    border: 3px solid #22a39f;
+
 }
 .list-unstyled li .detail {
     width: 40%;
@@ -26,4 +28,10 @@
         color: #a2a2a2;
     }
     
+}
+
+@media screen and (max-width: 768px){
+    .photo {
+        margin-top: 20px;
+    }
 }

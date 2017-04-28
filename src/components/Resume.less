@@ -1,31 +1,40 @@
 .resume {
     margin-bottom: 40px;
-    h2 { //merge pus in app.less ca si section-title
+    h2 {
         width: 100%;
         padding-bottom: 30px;
         border-bottom: 1px solid #eee;
+        
+
     }
     h3 {
-        font-style: italic;
         margin-bottom: 30px;
+    }
+    h4 {
+        font-weight: bold;
     }
 }
 .experience {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .box {
-    background-color: #40cac5; //#119DA4
+    background-color: ghostwhite; 
+    border-top: 2px solid #40cac5;
     margin-bottom: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 200px;
+    padding: 20px;
+    height: 100%;
+    transition: all .5s ease;
 
-    transition: all 2s ease;
     &:hover {
-        background-color: #119DA4;
-        opacity: .9;
-        color: white;
+        background-color: rgb(202, 233, 234);
+    }
+    p {
+        margin-top: 20px;
+    }
+    .glyphicon-map-marker, .glyphicon-briefcase, .glyphicon-pencil, .glyphicon-certificate{
+        margin-right: 10px;
+        color: #40cac5;
     }
 }
 

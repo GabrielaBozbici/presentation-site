@@ -9,7 +9,7 @@ export default class Profile extends Component{
                     <h2 className="about text-center">About</h2>
                 </div>
                 <div className="row">
-                <div className="col-sm-4 col-md-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 details">
+                <div className="col-sm-4 col-md-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 details">
                     <h3>Details</h3>
                     <ul className="list-unstyled">
                         <li>
@@ -19,20 +19,20 @@ export default class Profile extends Component{
                             <span className="detail">Age:</span>27 years 
                         </li>
                         <li>
-                            <span className="detail">Original from:</span>Romania 
+                            <span className="detail">Nationality:</span>Romanian 
                         </li>
                          <li>
                             <span className="detail">Location:</span>Prague (Czech Republic)
                         </li>
                          <li>
-                            <span className="detail">Profesion:</span>Frontend Developer
+                            <span className="detail">Profession:</span>Frontend Developer
                         </li>
                     </ul>
                 </div>
                 <div className="col-sm-3 col-md-3 col-xs-6 col-xs-offset-3 col-sm-offset-0 photo">
                     <img src={PhotoMe} alt=""/>
                 </div>
-                <div className="col-sm-5 col-md-5 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                <div className="col-sm-5 col-md-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                     <h3>Me</h3>
                     <span>
                         I believe in the beauty of this world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur aperiam nobis sunt in numquam, pariatur excepturi, quam voluptatem minus amet ad praesentium quis reprehenderit neque, voluptates inventore, repellendus dicta!

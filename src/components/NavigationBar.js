@@ -5,7 +5,7 @@ export default class NavigationBar extends Component {
         super();
         this.state = {
             activeItem: '',
-            menuItems: ['Profile', 'Abilities', 'Resume', 'Contact me']
+            menuItems: ['PROFILE', 'ABILITIES', 'RESUME', 'CONTACT ME']
         }
     }
     handleClick = (Item) => {
@@ -15,16 +15,16 @@ export default class NavigationBar extends Component {
     }
     render(){
         return(
-            <nav className="navbar navbar-default" role="navigation" data-spy="affix" data-offset-top="100">
+            <nav className="navbar navbar-fixed-top navbar-default" role="navigation" data-spy="affix" data-offset-top="0" data-offset-bottom="200" >
                 <div className="navbar-header">
-                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collpase">
+                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
                 </div>
-                <div className="collapse navbar-collapse navbar-ex1-collpase">
+                <div className="collapse navbar-collapse .navbar-ex1-collapse">
                     <ul className="nav navbar-nav">
                         {/*<li className={this.state.activeItem === "Profile"  ? "active" : "inactive"} onClick={ () => this.handleClick('Profile')}>Profile</li>
                         <li className={this.state.activeItem === "Abilities" ? "active" : "inactive"} onClick={ () => this.handleClick('Abilities')}>Abilities</li>
@@ -39,3 +39,5 @@ export default class NavigationBar extends Component {
         )
     }
 }
+
+

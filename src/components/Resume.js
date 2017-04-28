@@ -9,51 +9,81 @@ export default class Resume extends Component{
                     <div className="col-sm-12 col">
                         <h2 className="text-center">Resume</h2>
                     </div>
-                    <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                    <div className="col-sm-12 col-xs-12">
                         <h3>Experience</h3>
                     </div>
-                    <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 text-center">
+                    <div className="col-sm-4 col-xs-12">
                         <div className="box">
-                            <h4>Self-taught Frontend Developer</h4>
-                            <span className="text-center">(September 2016 - present)</span>
+                            <h4 className="text-center">Frontend Developer</h4>
+                            <div className="text-center">September 2016 - present</div>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                            Self- taught</p>
+                            <p className="description">
+                                <span className="glyphicon glyphicon-pencil"></span>
+                                My curiosity drove me to this path of learning fronend. I started shy with some online courses and got more and more interested in becoming the person that can write websites that look nice and apps that are fast and performant. The journey continues as I intend to be the best I can… </p>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 text-center">
+                    <div className="col-sm-4 col-xs-12">
                         <div className="box">
-                            <h4>Web Scraper</h4>
-                            <span>(July 2016 - September 2016)</span>
+                            <h4 className="text-center">Web Scraper</h4>
+                            <div className="text-center">July 2016 - September 2016</div>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                            Rubrikk.no, Cluj-Napoca</p>
+                            <p className="description">
+                                <span className="glyphicon glyphicon-pencil"></span>
+                                Though it was a short experience, being a web scraper gave me the first contact with an IT company. I had the chance too see how a crawler works and I learned how to write Regular Expressions.</p>
                         </div>
                     </div>
-                    <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 text-center">
+                    <div className="col-sm-4 col-xs-12">
                         <div className="box">
-                            <h4>Procurement Analyst</h4>
-                            <span className="text-center">(September 2016 - present)</span>
+                            <h4 className="text-center">Procurement Analyst</h4>
+                            <div className="text-center">September 2016 - July 2016</div>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                            Bombardier Transportation, Cluj-Napoca</p>
+                            <p className="description">
+                                <span className="glyphicon glyphicon-pencil"></span>
+                                My first job gave me the opportunity to learn how to work within both small and big teams. I worked closely with people from France, Spain, England and Philippines. I also successfully managed a team of 6 people and was responsible for some trainings for the new joiners..</p>
                         </div>
                     </div>
                 </div>
             <div className="row education">
-                <div className="col-sm-12 col-xs-8 col-xs-offset-1 col-sm-offset-0">
+                <div className="col-sm-12 col-xs-12">
                     <h3>Education</h3>
                 </div> 
-                <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 ex-center">
+                <div className="col-sm-4 col-xs-12">
                     <div className="box">
-                        <h4>Master's degree: 2012 - 2014</h4>
-                        <p>Faculty of Economics and Business Administration, Cluj-Napoca</p>
-                        <p>Major: Banks and Capital Markets</p>
+                        <h4 className="text-center">Master's degree</h4>
+                        <div className="text-center">2012 - 2014</div>
+                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                            Major: Banks and Capital Markets</p>
+                        <p><span className="glyphicon glyphicon-map-marker"></span>
+                            Faculty of Economics and Business Administration, Cluj-Napoca</p>
+                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                            This master program offered me some insights of the capital market world and how the banking system works. My favorite course was stock market analysis where I have seen the power of mathematics and statistic in real life.</p>
                     </div>
                 </div>
-                <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 ex-center">
+                <div className="col-sm-4 col-xs-12">
                     <div className="box">
-                        <h4>Bachelor's degree: 2009 - 2012</h4>
-                        <p>Faculty of Economics and Business Administration, Cluj-Napoca</p>
-                        <p>Major: Finance and Banks</p>
+                        <h4 className="text-center">Bachelor's degree</h4>
+                        <div className="text-center">2009 - 2012</div>
+                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                            Major: Finance and Banks</p>
+                        <p><span className="glyphicon glyphicon-map-marker"></span>
+                            Faculty of Economics and Business Administration, Cluj-Napoca</p>
+                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                            The education was economic related but I have done also statistical modeling which I enjoyed most .I learned also about the management of people and how to successfully run a business.</p>
                     </div>
                 </div>
-                <div className="col-sm-4 col-xs-8 col-xs-offset-1 col-sm-offset-0 ex-center">
+                <div className="col-sm-4 col-xs-12">
                     <div className="box">
-                        <h4>Highschool: 2005 - 2009</h4>
-                        <p>National College “George Cosbuc”, Bistrita- Nasaud</p>
-                        <p>Major: Mathematics and Informatics</p>
+                        <h4 className="text-center">Highschool</h4>
+                        <div className="text-center">2005 - 2009</div>
+                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                            Major: Mathematics and Informatics</p>
+                        <p><span className="glyphicon glyphicon-map-marker"></span>
+                            National College “George Cosbuc”, Bistrita- Nasaud</p>
+                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                            In high school, though I always was an A+ student,  what I enjoyed most was mathematics and biology. I also liked very much learning basic C++.</p>
                     </div>
                 </div>
             </div>
@@ -68,6 +98,9 @@ export default class Resume extends Component{
         )
     }
 }
+
+
+
 
 
 
