@@ -4,7 +4,7 @@ import CV from "../assets/cv.pdf";
 export default class Resume extends Component{
     render(){
         return(
-            <div className="container resume">
+            <div className="container resume" id="resume">
                 <div className="row experience">
                     <div className="col-sm-12 col">
                         <h2 className="text-center">Resume</h2>
@@ -46,55 +46,55 @@ export default class Resume extends Component{
                         </div>
                     </div>
                 </div>
-            <div className="row education">
-                <div className="col-sm-12 col-xs-12">
-                    <h3>Education</h3>
-                </div> 
-                <div className="col-sm-4 col-xs-12">
-                    <div className="box">
-                        <h4 className="text-center">Master's degree</h4>
-                        <div className="text-center">2012 - 2014</div>
-                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
-                            Major: Banks and Capital Markets</p>
-                        <p><span className="glyphicon glyphicon-map-marker"></span>
-                            Faculty of Economics and Business Administration, Cluj-Napoca</p>
-                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                            This master program offered me some insights of the capital market world and how the banking system works. My favorite course was stock market analysis where I have seen the power of mathematics and statistic in real life.</p>
+                <div className="row education">
+                    <div className="col-sm-12 col-xs-12">
+                        <h3>Education</h3>
+                    </div> 
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="box">
+                            <h4 className="text-center">Master's degree</h4>
+                            <div className="text-center">2012 - 2014</div>
+                            <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                                Major: Banks and Capital Markets</p>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                                Faculty of Economics and Business Administration, Cluj-Napoca</p>
+                            <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                                This master program offered me some insights of the capital market world and how the banking system works. My favorite course was stock market analysis where I have seen the power of mathematics and statistic in real life.</p>
+                        </div>
+                    </div>
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="box">
+                            <h4 className="text-center">Bachelor's degree</h4>
+                            <div className="text-center">2009 - 2012</div>
+                            <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                                Major: Finance and Banks</p>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                                Faculty of Economics and Business Administration, Cluj-Napoca</p>
+                            <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                                The education was economic related but I have done also statistical modeling which I enjoyed most .I learned also about the management of people and how to successfully run a business.</p>
+                        </div>
+                    </div>
+                    <div className="col-sm-4 col-xs-12">
+                        <div className="box">
+                            <h4 className="text-center">Highschool</h4>
+                            <div className="text-center">2005 - 2009</div>
+                            <p><span className="glyphicon glyphicon-certificate logo-small"></span>
+                                Major: Mathematics and Informatics</p>
+                            <p><span className="glyphicon glyphicon-map-marker"></span>
+                                National College “George Cosbuc”, Bistrita- Nasaud</p>
+                            <p className="description"><span className="glyphicon glyphicon-pencil"></span>
+                                In high school I always was an A+ student. I liked vrey much mathematics because it gave me the opportunity to search for multiple ways to solve a problem. The functionality of the human body always amazed me, that is why I enjoyed very much studying biology, especially anaotmy. I also liked very much learning informatics (mainely basic C++) because I liked how algorithms run, leaving for me to see only the reuslt.</p>
+                        </div>
                     </div>
                 </div>
-                <div className="col-sm-4 col-xs-12">
-                    <div className="box">
-                        <h4 className="text-center">Bachelor's degree</h4>
-                        <div className="text-center">2009 - 2012</div>
-                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
-                            Major: Finance and Banks</p>
-                        <p><span className="glyphicon glyphicon-map-marker"></span>
-                            Faculty of Economics and Business Administration, Cluj-Napoca</p>
-                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                            The education was economic related but I have done also statistical modeling which I enjoyed most .I learned also about the management of people and how to successfully run a business.</p>
-                    </div>
-                </div>
-                <div className="col-sm-4 col-xs-12">
-                    <div className="box">
-                        <h4 className="text-center">Highschool</h4>
-                        <div className="text-center">2005 - 2009</div>
-                        <p><span className="glyphicon glyphicon-certificate logo-small"></span>
-                            Major: Mathematics and Informatics</p>
-                        <p><span className="glyphicon glyphicon-map-marker"></span>
-                            National College “George Cosbuc”, Bistrita- Nasaud</p>
-                        <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                            In high school, though I always was an A+ student,  what I enjoyed most was mathematics and biology. I also liked very much learning basic C++.</p>
+                <div className="row">
+                    <div className="col-md-12 col-sm-12 col-xs-12 text-center">
+                        <button className="buttonCv text-center">
+                            <a href={CV} download={CV} className="buttonCv">Download full resume</a>
+                        </button>
                     </div>
                 </div>
             </div>
-            <div className="row">
-                <div className="col-md-12 col-sm-12 col-xs-12 text-center">
-                    <button className="buttonCv text-center">
-                        <a href={CV} download={CV} className="buttonCv">Download full resume</a>
-                    </button>
-                </div>
-            </div>
-        </div>
         )
     }
 }
