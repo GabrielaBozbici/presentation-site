@@ -1,22 +1,26 @@
 .navbar {
     //position: absolute;
     background-color: #111;
-    width: 100%;
+    transition: all .5s linear;
     z-index: 999;
     border-color: transparent;
     background-image: none;
     margin-bottom: 0px;
     .navbar-nav {
+        text-align: center;
         float: right;
-        li {
-            display: block;
+       li a {
+            display: inline-block;
             color: white;
+            //width: 100%;
             padding: 10px;
             border-radius: 0px;
             box-sizing: border-box;
             border: 2px solid transparent;
             &:hover{
                 cursor: pointer;
+                text-decoration: none;
+                color: white;
             }
         } 
     }
@@ -27,9 +31,35 @@
       position: fixed;
   }
 
+ .black {
+    background-color: #111;
+ } 
+ .transparent {
+     background-color: transparent;;
+ }
+
 .active{
-    background-color: #22A39F;
+    background-color: #22A39F !important;
 }
 .inactive {
     background-color: #222222;
+}
+@media screen and (max-width: 767px){
+    .navbar .navbar-nav {
+        margin: 0;
+        float: none;
+        width: 100%;
+        li a{
+            width: 100%;
+        }
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px
+    }
+}
+
+.Wrap {
+    height: 100%;
+    overflow: scroll;
 }
