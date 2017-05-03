@@ -38,7 +38,8 @@ export default class Profile extends Component{
                     <div className="col-sm-5 col-md-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                         <h3>Me</h3>
                         <span>
-                            I believe in the beauty of this world. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consectetur aperiam nobis sunt in numquam, pariatur excepturi, quam voluptatem minus amet ad praesentium quis reprehenderit neque, voluptates inventore, repellendus dicta!
+                            My frontend developer story began with the curiosity for how websites are made. After getting aquainted with HTML and CSS, I wanted my work to have functionality, so my attention went to web applications. So I begun learning JavaScript.
+                            <br/>Other than that, I enjoy sunny, warm places, especially seaside alongside with a good food that wakens my tastebuds. I can get very passionate when it comes to music and dance (especially latino rithms).
                         </span>
                     </div>
                     </div>

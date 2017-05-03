@@ -43,14 +43,13 @@ class App extends Component {
       <div className="Wrap"
         ref="wrap"
       >
-        <div className="container-fluid">
           <NavigationBar scroled={this.state.scroled} />
           <Banner />
           <Profile />
           <Abilities />
           <Resume />
           <Footer/>
-        </div>
+        
       </div>
     )
   }

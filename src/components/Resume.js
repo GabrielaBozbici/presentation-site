@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import CV from "../assets/cv.pdf";
+import CV from "../assets/GabrielaBOZBICIcv.pdf";
 import Scroll from 'react-scroll';
 var Element    = Scroll.Element;
 
@@ -18,9 +18,9 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Frontend Developer</h4>
-                                <div className="text-center">September 2016 - present</div>
-                                <p><span className="glyphicon glyphicon-map-marker"></span>
-                                Self- taught</p>
+                                <div className="text-center period">September 2016 - present</div>
+                                <a href="#"><span className="glyphicon glyphicon-map-marker"></span>
+                                Self- taught</a>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
                                     My curiosity drove me to this path of learning fronend. I started shy with some online courses and got more and more interested in becoming the person that can write websites that look nice and apps that are fast and performant. The journey continues as I intend to be the best I can… </p>
@@ -29,9 +29,9 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Web Scraper</h4>
-                                <div className="text-center">July 2016 - September 2016</div>
-                                <p><span className="glyphicon glyphicon-map-marker"></span>
-                                Rubrikk.no, Cluj-Napoca</p>
+                                <div className="text-center period">July 2016 - September 2016</div>
+                                <a href="http://www.rubrikkgroup.com/"><span className="glyphicon glyphicon-map-marker"></span>
+                                Rubrikk.no, Cluj-Napoca</a>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
                                     Though it was a short experience, being a web scraper gave me the first contact with an IT company. I had the chance too see how a crawler works and I learned how to write Regular Expressions.</p>
@@ -40,12 +40,12 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Procurement Analyst</h4>
-                                <div className="text-center">September 2016 - July 2016</div>
-                                <p><span className="glyphicon glyphicon-map-marker"></span>
-                                Bombardier Transportation, Cluj-Napoca</p>
+                                <div className="text-center period">September 2016 - July 2016</div>
+                                <a href="http://www.bombardier.com/en/home.html"><span className="glyphicon glyphicon-map-marker"></span>
+                                Bombardier Transportation, Cluj-Napoca</a>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
-                                    My first job gave me the opportunity to learn how to work within both small and big teams. I worked closely with people from France, Spain, England and Philippines. I also successfully managed a team of 6 people and was responsible for some trainings for the new joiners..</p>
+                                    My first job gave me the opportunity to learn how to work within both small and big teams. I worked closely with people from France, Spain, England and Philippines. I also successfully managed a team of 6 people and was responsible for the trainings of the new joiners.</p>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Master's degree</h4>
-                                <div className="text-center">2012 - 2014</div>
+                                <div className="text-center period">2012 - 2014</div>
                                 <p><span className="glyphicon glyphicon-certificate logo-small"></span>
                                     Major: Banks and Capital Markets</p>
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
@@ -68,7 +68,7 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Bachelor's degree</h4>
-                                <div className="text-center">2009 - 2012</div>
+                                <div className="text-center period">2009 - 2012</div>
                                 <p><span className="glyphicon glyphicon-certificate logo-small"></span>
                                     Major: Finance and Banks</p>
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
@@ -80,13 +80,13 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Highschool</h4>
-                                <div className="text-center">2005 - 2009</div>
+                                <div className="text-center period">2005 - 2009</div>
                                 <p><span className="glyphicon glyphicon-certificate logo-small"></span>
                                     Major: Mathematics and Informatics</p>
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     National College “George Cosbuc”, Bistrita- Nasaud</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    In high school I always was an A+ student. I liked vrey much mathematics because it gave me the opportunity to search for multiple ways to solve a problem. The functionality of the human body always amazed me, that is why I enjoyed very much studying biology, especially anaotmy. I also liked very much learning informatics (mainely basic C++) because I liked how algorithms run, leaving for me to see only the reuslt.</p>
+                                    In high school I always was an A+ student (always was "the geek of the class"). I enjoyed very much studying mathematics and biology; won several competitions in this regard. In the forst two years I studied informatics (basic C++).</p>
                             </div>
                         </div>
                     </div>

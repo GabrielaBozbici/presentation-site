@@ -24,13 +24,20 @@
     margin-bottom: 30px;
     padding: 20px;
     height: 100%;
-    transition: all .5s ease;
-
+    transition: all .5s ease-in;
     &:hover {
         background-color: rgb(202, 233, 234);
     }
-    p {
+    a {
         margin-top: 20px;
+        text-decoration: none;
+        color: #22a39f;
+    }
+    .description {
+        margin-top: 20px;
+    }
+    .period {
+        margin-bottom: 20px;
     }
     .glyphicon-map-marker, .glyphicon-briefcase, .glyphicon-pencil, .glyphicon-certificate{
         margin-right: 10px;
@@ -50,6 +57,7 @@
     }
     &:hover{
         background-color: #40cac5;
+        transform: scale(1.2);
     }
     a {
         text-decoration: none;

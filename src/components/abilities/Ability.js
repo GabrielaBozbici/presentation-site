@@ -4,7 +4,7 @@ import Stars from './Stars';
 export default class Ability extends Component {
     render(){
         return(
-            <li>
+            <li className="ability">
                 <span className="title">{this.props.title}</span>
                 <Stars count={this.props.starsCount} />
                 <div className="clear"></div>
