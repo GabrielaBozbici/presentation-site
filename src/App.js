@@ -28,6 +28,7 @@ class App extends Component {
         this.setState({scroled: false});
       }
   }
+  
   componentDidMount() {
       const element = ReactDOM.findDOMNode(this.refs.wrap);
       element.addEventListener('scroll', this._handleScroll.bind(this));

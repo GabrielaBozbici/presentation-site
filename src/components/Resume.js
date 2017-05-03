@@ -86,7 +86,7 @@ export default class Resume extends Component{
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     National College “George Cosbuc”, Bistrita- Nasaud</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    In high school I always was an A+ student (always was "the geek of the class"). I enjoyed very much studying mathematics and biology; won several competitions in this regard. In the forst two years I studied informatics (basic C++).</p>
+                                    In high school I always was an A+ student (always was "the geek of the class"). I enjoyed very much studying mathematics and biology; won several competitions in this regard. In the first two years I studied informatics (basic C++).</p>
                             </div>
                         </div>
                     </div>

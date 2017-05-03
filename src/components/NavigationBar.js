@@ -16,10 +16,6 @@ export default class NavigationBar extends Component {
             transparent: true,
         }
     }
-    componentWillMount(){
-        console.log(Link, scrollTo)
-        console.log(this.state.transparent);
-    }
 
     clickMenu(){
         console.log("menu is clicked");
@@ -30,18 +26,48 @@ export default class NavigationBar extends Component {
         });
     }
 
-    scrollTo(element) {
-        scroll.scrollTo(element);
-        console.log('scroll works')
+    scrollTo(Item) {
+        console.log('scrollTo');
+        scroll.scrollTo(Item);
     }
+
     componentWillReceiveProps(newProps){
-        console.log('newProps', newProps);
         if(newProps.scroled){
             this.setState({transparent: false});
         } else {
             this.setState({transparent: true});
         }
     }
+
+    handleClick(Item){
+        console.log('handleClick', Item);
+        this.scrollTo(Item);
+        this.setState({isClicked: true, activeItem: Item})
+    }
+
+    componentDidMount() {
+
+        Events.scrollEvent.register('begin', function(to, element) {
+            console.log("begin", arguments);
+        });
+
+        Events.scrollEvent.register('end', function(to, element) {
+            console.log("end", arguments);
+        });
+
+        scrollSpy.update();
+
+  }
+    componentWillUnmount() {
+        Events.scrollEvent.remove('begin');
+        Events.scrollEvent.remove('end');
+    }
+    
+
+    test(){
+        this.scrollTo()
+    }
+
     render(){
         return(
             <nav className={`navbar navbar-fixed-top navbar-default ${this.state.transparent ? 'transparent' : 'black'}`} role="navigation" data-spy="affix" data-offset-top="0" data-offset-bottom="200" >
@@ -62,8 +88,10 @@ export default class NavigationBar extends Component {
                                 return (
                                     <li key={Item}>
                                         <Link 
-                                        to={Item} spy={true} offset={-50}
-                                        onClick={() => this.setState({isClicked: true, activeItem: Item})}
+                                        to={Item} 
+                                        spy={true} 
+                                        offset={-50}
+                                        onClick={() => this.handleClick(Item)}
                                         className={this.state.activeItem === Item ? "active" : ''}
                                         >{Item}
                                         </Link>
