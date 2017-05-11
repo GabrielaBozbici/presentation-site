@@ -51,7 +51,7 @@ export default class Footer extends Component {
                     </div>
                     <div className="bottom-side">
                         <p className="text-center">
-                            &copy; Copyright 2017 Gabriela Bozbici
+                            &copy; Copyright {new Date().getFullYear()} Gabriela Bozbici
                         </p>
                     </div>
                 </div>

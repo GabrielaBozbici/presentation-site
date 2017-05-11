@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import Photo from '../assets/bannerM.jpg'
 
-
 export default class Banner extends Component {
     render(){
         return(

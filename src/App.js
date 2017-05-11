@@ -7,54 +7,42 @@ import Abilities from "./components/abilities/Abilities.js";
 import Resume from "./components/Resume.js";
 import Footer from "./components/Footer.js";
 
-var Scroll = require('react-scroll');
-var Events = Scroll.Events;
-
-//styles
 import './App.less';
 
-class App extends Component {
-  constructor(){
-    super();
-    this.state = {
-      scroled: false
-    }
-  }
+var Scroll = require('react-scroll');
+var Element = Scroll.Element;
+var Events = Scroll.Events;
+var scrollSpy  = Scroll.scrollSpy;
+var scroll     = Scroll.animateScroll;
 
-  _handleScroll(ev) {
-      if( ev.target.scrollTop > 100) {
-        this.setState({scroled: true});
-      } else {
-        this.setState({scroled: false});
-      }
-  }
-  
-  componentDidMount() {
-      const element = ReactDOM.findDOMNode(this.refs.wrap);
-      element.addEventListener('scroll', this._handleScroll.bind(this));
-  }
+export default class App extends Component {
+  // constructor(){
+  //   super();
+  //   this.state = {
+  //     scroled: false
+  //   }
+  // }
 
-  componentWillUnmount() {
-      const element = ReactDOM.findDOMNode(this.refs.wrap)
-      element.removeEventListener('scroll', this._handleScroll.bind(this));
-  }
+  // componentDidMount() {
+  //   Events.scrollEvent.register('begin', function(to, element) {});
+  //   Events.scrollEvent.register('end', function(to, element) {});
+
+  //   scrollSpy.update();
+  // }
 
   render() {
     return (
-      <div className="Wrap"
-        ref="wrap"
-      >
-          <NavigationBar scroled={this.state.scroled} />
+      <div>
+          <NavigationBar/>
           <Banner />
           <Profile />
           <Abilities />
           <Resume />
           <Footer/>
-        
       </div>
     )
   }
 }
 
-export default App;
+
 

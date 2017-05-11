@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
 import CV from "../assets/GabrielaBOZBICIcv.pdf";
 import Scroll from 'react-scroll';
-var Element    = Scroll.Element;
+
+var Element = Scroll.Element;
+var scroll     = Scroll.animateScroll;
 
 export default class Resume extends Component{
+    scrollToTop(){
+        scroll.scrollToTop();
+    }
     render(){
         return(
             <Element name="RESUME" className="RESUME">
@@ -23,7 +28,7 @@ export default class Resume extends Component{
                                 Self- taught</a>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
-                                    My curiosity drove me to this path of learning fronend. I started shy with some online courses and got more and more interested in becoming the person that can write websites that look nice and apps that are fast and performant. The journey continues as I intend to be the best I can… </p>
+                                    My curiosity drove me to this path of learning frontend. I started shy with some online courses and got more and more interested in becoming the person that can write good-looking websites and performant apps. The journey continues as I intend to be the best I can… </p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
@@ -74,7 +79,7 @@ export default class Resume extends Component{
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     Faculty of Economics and Business Administration, Cluj-Napoca</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    The education was economic related but I have done also statistical modeling which I enjoyed most .I learned also about the management of people and how to successfully run a business.</p>
+                                    The education was economic related but I have done also statistical modeling which I enjoyed most. I learned also about the management of people and how to successfully run a business.</p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
@@ -95,8 +100,11 @@ export default class Resume extends Component{
                             <button className="buttonCv text-center">
                                 <a href={CV} download={CV} className="buttonCv">Download full resume</a>
                             </button>
+                            <i className="fa fa-chevron-circle-up fa-3 arrow"
+                            onClick= {()=> this.scrollToTop()}></i>
                         </div>
                     </div>
+                    
                 </div>
             </Element>
         )

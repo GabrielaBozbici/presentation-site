@@ -31,9 +31,9 @@ export default class Abilities extends Component {
                             
                                     <Abillity title={'JavaScript'} starsCount={4} />
                                     <Abillity title={'React JS'} starsCount={4} />
-                                    <Abillity title={'Flux'} starsCount={4} />
+                                    <Abillity title={'Flux'} starsCount={3} />
                                     <Abillity title={'JQuery'} starsCount={4} />
-                                    <Abillity title={'Object oriented programming'} starsCount={4} />
+                                    <Abillity title={'Responsive Web Design'} starsCount={4} />
                                 </ul>
                             </div>
                         </div>
@@ -76,7 +76,6 @@ export default class Abilities extends Component {
                                     <Abillity title={'French (Medium)'} starsCount={3} />
                                     <Abillity title={'Italian (Begginer)'} starsCount={2} />
                                     <Abillity title={'Dance (Latino)'} starsCount={4} />
-                            
                                 </ul>
                             </div>
                         </div>

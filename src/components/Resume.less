@@ -14,10 +14,6 @@
         font-weight: bold;
     }
 }
-.experience {
-    padding-top: 30px;
-}
-
 .box {
     background-color: ghostwhite; 
     border-top: 2px solid #40cac5;
@@ -51,7 +47,7 @@
     padding: 10px 10px;
     margin: 5px;
     border-radius: 30px;
-    transition: all 2s ease;
+    transition: all .5s ease;
     &:focus{
         outline: none;
     }
@@ -62,5 +58,14 @@
     a {
         text-decoration: none;
         color: #fff;
+    }
+}
+.arrow  {
+    font-size: 50px;
+    position: absolute;
+    right: 15px;
+    &:hover{
+        color: #40cac5;
+        transform: scale(1.1);
     }
 }
