@@ -45,7 +45,7 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Procurement Analyst</h4>
-                                <div className="text-center period">September 2016 - July 2016</div>
+                                <div className="text-center period">July 2014 - July 2016</div>
                                 <a href="http://www.bombardier.com/en/home.html"><span className="glyphicon glyphicon-map-marker"></span>
                                 Bombardier Transportation, Cluj-Napoca</a>
                                 <p className="description">

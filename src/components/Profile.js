@@ -39,7 +39,7 @@ export default class Profile extends Component{
                         <h3>Me</h3>
                         <span>
                             My frontend developer story began with the curiosity for how websites are made. After getting aquainted with HTML and CSS, I wanted my work to have functionality, so my attention went to web applications. So I begun learning JavaScript.
-                            <br/>Other than that, I enjoy sunny, warm places, especially seaside combined with a good food that wakens my tastebuds. I can get very passionate when it comes to music and dance (especially latino rithms).
+                            <br/>Other than that, I enjoy travelling to sunny, warm places, especially seaside and good food that awakens my tastebuds. I can get very passionate when it comes to music and dance (especially latino rithms).
                         </span>
                     </div>
                     </div>
