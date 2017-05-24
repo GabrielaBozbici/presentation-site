@@ -24,33 +24,39 @@ export default class Resume extends Component{
                             <div className="box">
                                 <h4 className="text-center">Frontend Developer</h4>
                                 <div className="text-center period">September 2016 - present</div>
-                                <a href="#"><span className="glyphicon glyphicon-map-marker"></span>
-                                Self- taught</a>
+                                <div className="text-center">
+                                    <a href="#"><span className="glyphicon glyphicon-map-marker"></span>
+                                        Self- taught</a>
+                                </div>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
-                                    My curiosity drove me to this path of learning frontend. I started shy with some online courses and got more and more interested in becoming the person that can write good-looking websites and performant apps. The journey continues as I intend to be the best I can… </p>
+                                    Curiosity drove me on this path of learning frontend. I started with some online courses and got more and more interested in becoming the person that can create outstanding websites and performant apps. The journey continues as I intend to be the best I can…</p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Web Scraper</h4>
                                 <div className="text-center period">July 2016 - September 2016</div>
-                                <a href="http://www.rubrikkgroup.com/"><span className="glyphicon glyphicon-map-marker"></span>
-                                Rubrikk.no, Cluj-Napoca</a>
+                                <div className="text-center">
+                                    <a href="http://www.rubrikkgroup.com/"><span className="glyphicon glyphicon-map-marker"></span>
+                                        Rubrikk.no, Cluj-Napoca</a>
+                                </div>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
-                                    Though it was a short experience, being a web scraper gave me the first contact with an IT company. I had the chance too see how a crawler works and I learned how to write Regular Expressions.</p>
+                                    Though it was a short experience, being a web scraper introduced me to the IT world. I had the chance to see and understand how a crawler works and I learned to write Regular Expressions.</p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Procurement Analyst</h4>
                                 <div className="text-center period">July 2014 - July 2016</div>
-                                <a href="http://www.bombardier.com/en/home.html"><span className="glyphicon glyphicon-map-marker"></span>
-                                Bombardier Transportation, Cluj-Napoca</a>
+                                <div className="text-center">
+                                    <a href="http://www.bombardier.com/en/home.html"><span className="glyphicon glyphicon-map-marker"></span>
+                                        Bombardier Transportation, Cluj-Napoca</a>
+                                </div>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
-                                    My first job gave me the opportunity to learn how to work within both small and big teams. I worked closely with people from France, Spain, England and Philippines. I also successfully managed a team of 6 people and was responsible for the trainings of the new joiners.</p>
+                                    My first job gave me the opportunity to be part of a performant, virtually global team with colleagues from France, Spain, UK and Philippines. I learned a lot, developed my skills  and successfully managed a small team, being also responsible for inductions and continuous trainings for new joiners.</p>
                             </div>
                         </div>
                     </div>
@@ -79,7 +85,7 @@ export default class Resume extends Component{
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     Faculty of Economics and Business Administration, Cluj-Napoca</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    The education was economic related but I have done also statistical modeling which I enjoyed most. I learned also about the management of people and how to successfully run a business.</p>
+                                    The education was economic related but I have done also Statistical Modeling which I enjoyed most. I also learned people management and how to successfully run a business.</p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
@@ -91,7 +97,7 @@ export default class Resume extends Component{
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     National College “George Cosbuc”, Bistrita- Nasaud</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    In high school I always was an A+ student (always was "the geek of the class"). I enjoyed very much studying mathematics and biology; won several competitions in this regard. In the first two years I studied informatics (basic C++).</p>
+                                    In highschool I've always been an A+ student, "geek of the class". I enjoyed very much studying Mathematics and Biology; won several competitions in this regard. In the first two years I studied Informatics (Basic C++).</p>
                             </div>
                         </div>
                     </div>

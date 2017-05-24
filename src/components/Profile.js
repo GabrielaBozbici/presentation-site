@@ -9,7 +9,7 @@ export default class Profile extends Component{
             <Element name="PROFILE" className="PROFILE">
                 <div className="container"> 
                     <div className="about text-center">
-                        <h2 className="about text-center">About</h2>
+                        <h2 className="about text-center">Profile</h2>
                     </div>
                     <div className="row">
                     <div className="col-sm-4 col-md-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 details">
@@ -20,9 +20,6 @@ export default class Profile extends Component{
                             </li>
                             <li>
                                 <span className="detail">Age:</span>27 years 
-                            </li>
-                            <li>
-                                <span className="detail">Nationality:</span>Romanian 
                             </li>
                             <li>
                                 <span className="detail">Location:</span>Prague (Czech Republic)
@@ -36,10 +33,10 @@ export default class Profile extends Component{
                         <img src={Photo} alt=""/>
                     </div>
                     <div className="col-sm-5 col-md-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-                        <h3>Me</h3>
+                        <h3>About me</h3>
                         <span>
-                            My frontend developer story began with the curiosity for how websites are made. After getting aquainted with HTML and CSS, I wanted my work to have functionality, so my attention went to web applications. So I begun learning JavaScript.
-                            <br/>Other than that, I enjoy travelling to sunny, warm places, especially seaside and good food that awakens my tastebuds. I can get very passionate when it comes to music and dance (especially latino rithms).
+                            My frontend developer story began with the curiosity for how websites are made. After getting acquainted with HTML and CSS, I wanted my work to have functionality, so my attention went to web applications, therefore I began learning JavaScript.
+                            <br/>Other than that, I enjoy travelling to sunny places, especially seaside where good food  awakens my taste buds. I can get very passionate when it comes to music and dance (in particular latino rhythm). 
                         </span>
                     </div>
                     </div>
