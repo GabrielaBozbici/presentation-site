@@ -16,20 +16,6 @@ var scrollSpy  = Scroll.scrollSpy;
 var scroll     = Scroll.animateScroll;
 
 export default class App extends Component {
-  // constructor(){
-  //   super();
-  //   this.state = {
-  //     scroled: false
-  //   }
-  // }
-
-  // componentDidMount() {
-  //   Events.scrollEvent.register('begin', function(to, element) {});
-  //   Events.scrollEvent.register('end', function(to, element) {});
-
-  //   scrollSpy.update();
-  // }
-
   render() {
     return (
       <div>

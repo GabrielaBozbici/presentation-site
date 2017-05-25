@@ -23,10 +23,10 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Frontend Developer</h4>
-                                <div className="text-center period">September 2016 - present</div>
+                                <div className="text-center period">2015 - present</div>
                                 <div className="text-center">
                                     <a href="#"><span className="glyphicon glyphicon-map-marker"></span>
-                                        Self- taught</a>
+                                        Self- taught, freelance</a>
                                 </div>
                                 <p className="description">
                                     <span className="glyphicon glyphicon-pencil"></span>
@@ -35,7 +35,7 @@ export default class Resume extends Component{
                         </div>
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
-                                <h4 className="text-center">Web Scraper</h4>
+                                <h4 className="text-center">Frontend Web Scraper</h4>
                                 <div className="text-center period">July 2016 - September 2016</div>
                                 <div className="text-center">
                                     <a href="http://www.rubrikkgroup.com/"><span className="glyphicon glyphicon-map-marker"></span>
@@ -49,7 +49,7 @@ export default class Resume extends Component{
                         <div className="col-sm-4 col-xs-12">
                             <div className="box">
                                 <h4 className="text-center">Procurement Analyst</h4>
-                                <div className="text-center period">July 2014 - July 2016</div>
+                                <div className="text-center period">July 2014 - July 2015</div>
                                 <div className="text-center">
                                     <a href="http://www.bombardier.com/en/home.html"><span className="glyphicon glyphicon-map-marker"></span>
                                         Bombardier Transportation, Cluj-Napoca</a>
@@ -104,7 +104,7 @@ export default class Resume extends Component{
                     <div className="row">
                         <div className="col-md-12 col-sm-12 col-xs-12 text-center">
                             <button className="buttonCv text-center">
-                                <a href={CV} download={CV} className="buttonCv">Download full resume</a>
+                                <a href={CV} download={CV} className="buttonCv">Download resume</a>
                             </button>
                             <i className="fa fa-chevron-circle-up fa-3 arrow"
                             onClick= {()=> this.scrollToTop()}></i>

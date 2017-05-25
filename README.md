@@ -1,7 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project is as a presentation site. 
+I used [Create React App](https://github.com/facebookincubator/create-react-app) as boilerplate. The responsiveness of the site is handles with Bootstrap and as preprocessor of CSS I used LESS.
 
-Below you will find some information on how to perform common tasks.<br>
-You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+
+
+
 
 ## Table of Contents
 

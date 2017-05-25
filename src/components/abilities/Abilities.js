@@ -10,6 +10,8 @@ import LogoHtml from '../../assets/html5.png';
 import LogoGit from '../../assets/git.png';
 import LogoCss from '../../assets/css3.svg';
 import LogoReact from '../../assets/react.png';
+import LogoAngular from '../../assets/angular.png';
+
 
 
 var Element = Scroll.Element;
@@ -69,26 +71,22 @@ export default class Abilities extends Component {
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                                 <ul className="list-unstyled">
-                                    <Abillity title={'Mac OS'} starsCount={5} />
-                                    <Abillity title={'Atom'} starsCount={4} />
-                                    <Abillity title={'Visual Studio Code'} starsCount={4} />
-                                    <Abillity title={'Sublime Text'} starsCount={4} />
+                                    <Abillity title={'Mac OS'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Atom'} starsCount={4} iconType={"heart"} />
+                                    <Abillity title={'Visual Studio Code'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Sublime Text'} starsCount={4} iconType={"heart"} />
                                 </ul>
                             </div>
                             <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                                 <ul className="list-unstyled">
-                                    <Abillity title={'Chrome'} starsCount={5} />
-                                    <Abillity title={'Chrome DevTools'} starsCount={4} />
-                                    <Abillity title={'Windows'} starsCount={5} />
-                                    <Abillity title={'Microsoft Office Suite'} starsCount={4} />
+                                    <Abillity title={'Chrome'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Chrome DevTools'} starsCount={4} iconType={"heart"} />
+                                    <Abillity title={'Windows'} starsCount={4}  iconType={"heart"}/>
+                                    <Abillity title={'Microsoft Office Suite'} starsCount={4} iconType={"heart"} />
                                 </ul>
                             </div>
                         </div>
                     </div>
-   
-                   {/*<div className="img banner">
-                     <img src={Photo2} alt="baner"/>
-                   </div>*/}
                                            
                     <div className="container">
                         <div className="row">

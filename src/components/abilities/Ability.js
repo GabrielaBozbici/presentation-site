@@ -6,7 +6,7 @@ export default class Ability extends Component {
         return(
             <li className="ability">
                 <span className="title">{this.props.title}</span>
-                <Stars count={this.props.starsCount} />
+                <Stars count={this.props.starsCount} iconType={this.props.iconType}/>
                 <div className="clear"></div>
             </li>
         )}

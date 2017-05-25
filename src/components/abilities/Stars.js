@@ -16,14 +16,15 @@ export default class Stars extends Component{
         this.setState({
             filled: filledStars,
             empty: emptyStars,
-        })
+            iconType: this.props.iconType || 'star',
+        });
     }
 
     render(){
         return(
             <span className="score">
-                {this.state.filled.map((star) => <span key={star} className="glyphicon glyphicon-star filled"></span>)}
-                {this.state.empty.map((star) => <span key={star} className="glyphicon glyphicon-star empty"></span>)}
+                {this.state.filled.map((star) => <span key={star} className={`glyphicon glyphicon-${this.state.iconType} filled`}></span>)}
+                {this.state.empty.map((star) => <span key={star} className={`glyphicon glyphicon-${this.state.iconType} empty`}></span>)}
             </span>
         )
     }
