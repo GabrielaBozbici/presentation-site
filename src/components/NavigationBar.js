@@ -1,9 +1,7 @@
 import React, {Component} from 'react';
 import Scroll from 'react-scroll';
 
-var Link       = Scroll.Link;
-var scroller = Scroll.scroller;
-var scroll     = Scroll.animateScroll;
+var Link = Scroll.Link;
 
 export default class NavigationBar extends Component {
     constructor(){

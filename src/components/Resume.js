@@ -107,7 +107,7 @@ export default class Resume extends Component{
                                 <a href={CV} download={CV} className="buttonCv">Download resume</a>
                             </button>
                             <i className="fa fa-chevron-circle-up fa-3 arrow"
-                            onClick= {()=> this.scrollToTop()}></i>
+                            onClick={()=> this.scrollToTop()}></i>
                         </div>
                     </div>
                     

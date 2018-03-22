@@ -16,7 +16,7 @@ export default class Footer extends Component {
                             </a>
                         </li>
                         <li>
-                            <a href="tel:+40770364030">
+                            <a href="tel:+40754204005">
                                 <i className="fa fa-phone"><p>+40770364030</p></i>
                             </a>
                         </li>

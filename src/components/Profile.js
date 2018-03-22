@@ -3,7 +3,10 @@ import Photo from '../assets/photo.jpg'
 import Scroll from 'react-scroll';
 var Element    = Scroll.Element;
 
+let age = new Date().getFullYear() - 1990;
+
 export default class Profile extends Component{
+
     render(){
         return(
             <Element name="PROFILE" className="PROFILE">
@@ -19,7 +22,7 @@ export default class Profile extends Component{
                                 <span className="detail">Name: </span> Gabriela Bozbici
                             </li>
                             <li>
-                                <span className="detail">Age:</span>27 years 
+                                <span className="detail">Age:</span>Happy millennial ({age}y)
                             </li>
                             <li>
                                 <span className="detail">Location:</span>Prague (Czech Republic)
