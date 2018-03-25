@@ -5,7 +5,7 @@ var Element    = Scroll.Element;
 export default class Footer extends Component {
     render(){
         return(
-            <Element name="CONTACT" className="CONTACT">
+            <Element name="Contact" className="Contact">
                 <div className="Footer">
                     <div className="wrap">
                         <h4 className="text-center">Contact me</h4>
@@ -17,7 +17,7 @@ export default class Footer extends Component {
                         </li>
                         <li>
                             <a href="tel:+40754204005">
-                                <i className="fa fa-phone"><p>+40770364030</p></i>
+                                <i className="fa fa-phone"><p>+40754204005</p></i>
                             </a>
                         </li>
                         <li>

@@ -8,7 +8,7 @@ export default class NavigationBar extends Component {
         super();
         this.state = {
             activeItem: '',
-            menuItems: ['PROFILE', 'ABILITIES', 'RESUME', 'CONTACT'],
+            menuItems: ['Profile', 'Abilities', 'Resume', 'Contact'],
             isClicked: false,
         }
     }

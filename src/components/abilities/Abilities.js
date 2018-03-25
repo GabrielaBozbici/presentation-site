@@ -23,8 +23,8 @@ var Element = Scroll.Element;
 export default class Abilities extends Component {
     render(){
         return(
-            <Element name="ABILITIES" className="ABILITIES">
-                <div className="abilities" name='ABILITIES'>
+            <Element name="Abilities" className="Abilities">
+                <div className="abilities" name='Abilities'>
                     <div className="container">
                         <div className="row">
                             <div className="col-sm-12 col">
@@ -85,6 +85,36 @@ export default class Abilities extends Component {
                                     <img src={LogoJest} alt="Jest logo"/>
                                 </a>
                             </li>
+                        </div>
+                   </div>
+                      
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-center">
+                                <h3>Tools</h3>
+                            </div>
+                            <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+                                <ul className="list-unstyled">
+                                    <Abillity title={'WebStorm IDE'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'IntelliJ IDEA'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Visual Studio Code'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Atom'} starsCount={4} iconType={"heart"} />
+                                    <Abillity title={'Sublime Text'} starsCount={4} iconType={"heart"} />
+                                </ul>
+                            </div>
+                            <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
+                                <ul className="list-unstyled">
+                                    <Abillity title={'Mac OS'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Chrome'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Safari'} starsCount={5} iconType={"heart"} />
+                                    <Abillity title={'Windows'} starsCount={3}  iconType={"heart"}/>
+                                    <Abillity title={'Microsoft Office Suite'} starsCount={4} iconType={"heart"} />
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="img container banner">
+                        <div className="row">
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
                                 <a href="https://www.npmjs.com/" target="_blank">
                                     <img src={LogoNpm} alt="Npm logo"/>
@@ -115,36 +145,6 @@ export default class Abilities extends Component {
                                     <img src={LogoLess} alt="Less logo"/>
                                 </a>
                             </li>
-
-
-
-                            
-                        </div>
-                   </div>
-                      
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm-12 col-xs-8 col-xs-offset-2 col-sm-offset-0 text-center">
-                                <h3>Tools</h3>
-                            </div>
-                            <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-                                <ul className="list-unstyled">
-                                    <Abillity title={'WebStorm IDE'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'IntelliJ IDEA'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'Visual Studio Code'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'Atom'} starsCount={4} iconType={"heart"} />
-                                    <Abillity title={'Sublime Text'} starsCount={4} iconType={"heart"} />
-                                </ul>
-                            </div>
-                            <div className="col-md-6 col-sm-6 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-                                <ul className="list-unstyled">
-                                    <Abillity title={'Mac OS'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'Chrome'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'Safari'} starsCount={5} iconType={"heart"} />
-                                    <Abillity title={'Windows'} starsCount={3}  iconType={"heart"}/>
-                                    <Abillity title={'Microsoft Office Suite'} starsCount={4} iconType={"heart"} />
-                                </ul>
-                            </div>
                         </div>
                     </div>
                                            

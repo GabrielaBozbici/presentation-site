@@ -9,7 +9,7 @@ export default class Profile extends Component{
 
     render(){
         return(
-            <Element name="PROFILE" className="PROFILE">
+            <Element name="Profile" className="Profile">
                 <div className="container"> 
                     <div className="about text-center">
                         <h2 className="about text-center">Profile</h2>
