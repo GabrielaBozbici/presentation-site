@@ -56,32 +56,32 @@ export default class Abilities extends Component {
                     <div className="img container banner">
                         <div className="row">
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank" title="Html">
                                     <img src={LogoHtml} alt="HTML logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3" target="_blank" title="CSS">
                                     <img className="CssIcon" src={LogoCss} alt="CSS logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://www.javascript.com/" target="_blank">
+                                <a href="https://www.javascript.com/" target="_blank" title="JavaScript">
                                     <img src={LogojavaScript} alt="JavaScript logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://reactjs.org/" target="_blank">
+                                <a href="https://reactjs.org/" target="_blank" title="ReactJS">
                                     <img src={LogoReact} alt="React logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://redux.js.org/" target="_blank">
+                                <a href="https://redux.js.org/" target="_blank" title="Redux">
                                     <img src={LogoRedux} alt="Redux logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://facebook.github.io/jest/" target="_blank">
+                                <a href="https://facebook.github.io/jest/" target="_blank" title="Jest">
                                     <img src={LogoJest} alt="Jest logo"/>
                                 </a>
                             </li>
@@ -116,32 +116,32 @@ export default class Abilities extends Component {
                     <div className="img container banner">
                         <div className="row">
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://www.npmjs.com/" target="_blank">
+                                <a href="https://www.npmjs.com/" target="_blank" title="NPM">
                                     <img src={LogoNpm} alt="Npm logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://jenkins.io/" target="_blank">
+                                <a href="https://jenkins.io/" target="_blank" title="Jenkins">
                                     <img className="JenkinsIcon" src={LogoJenkins} alt="Jenkins logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://getbootstrap.com/" target="_blank">
+                                <a href="https://getbootstrap.com/" target="_blank" title="Bootstrap">
                                     <img className="Bootstrapicon" src={LogoBootstrap} alt="Bootstrap logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://git-scm.com/" target="_blank">
+                                <a href="https://git-scm.com/" target="_blank" title="Git">
                                     <img src={LogoGit} alt="Git logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="https://www.codecademy.com/articles/command-line-commands" target="_blank">
+                                <a href="https://www.codecademy.com/articles/command-line-commands" target="_blank" title="iTerm">
                                     <img src={Logoiterm} alt="iTerm logo"/>
                                 </a>
                             </li>
                             <li className="col-sm-2 col-xs-4 col-xs-offset-2 col-sm-offset-0 text-center logo">
-                                <a href="http://lesscss.org/" target="_blank">
+                                <a href="http://lesscss.org/" target="_blank" title="Less">
                                     <img src={LogoLess} alt="Less logo"/>
                                 </a>
                             </li>

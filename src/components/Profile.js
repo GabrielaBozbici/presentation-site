@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import Photo from '../assets/photo.jpg'
+import Photo from '../assets/profile.jpg';
+import Photo2 from '../assets/photo.jpg';
 import Scroll from 'react-scroll';
 var Element    = Scroll.Element;
 
@@ -15,6 +16,9 @@ export default class Profile extends Component{
                         <h2 className="about text-center">Profile</h2>
                     </div>
                     <div className="row">
+                    <div className="col-sm-3 col-md-3 col-xs-6 col-xs-offset-3 col-sm-offset-0 photo">
+                       <img src={Photo} alt=""/>
+                    </div>
                     <div className="col-sm-4 col-md-4 col-xs-8 col-xs-offset-2 col-sm-offset-0 details">
                         <h3>Details</h3>
                         <ul className="list-unstyled">
@@ -32,14 +36,15 @@ export default class Profile extends Component{
                             </li>
                         </ul>
                     </div>
-                    <div className="col-sm-3 col-md-3 col-xs-6 col-xs-offset-3 col-sm-offset-0 photo">
-                        <img src={Photo} alt=""/>
-                    </div>
                     <div className="col-sm-5 col-md-5 col-xs-8 col-xs-offset-2 col-sm-offset-0">
                         <h3>About me</h3>
                         <span>
-                            My frontend developer story began with the curiosity for how websites are made. After getting acquainted with HTML and CSS, I wanted my work to have functionality, so my attention went to web applications, therefore I began learning JavaScript.
-                            <br/>Other than that, I enjoy travelling to sunny places, especially seaside where good food  awakens my taste buds. I can get very passionate when it comes to music and dance (in particular latino rhythm). 
+                            My frontend developer story began with the curiosity for how websites are made.
+                            After getting acquainted with HTML and CSS, I wanted my work to have functionality,
+                            so my attention went to web applications, therefore I began learning JavaScript.
+                            <br/>On a personal note, I can say about myself that I enjoy travelling because I like to discover new places.
+                            I learn new languages when I have the opportunity and
+                            I can get very passionate when it comes to music and dance.
                         </span>
                     </div>
                     </div>

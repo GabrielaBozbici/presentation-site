@@ -120,7 +120,7 @@ export default class Resume extends Component{
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
                                     The education was economic related but I have done also Statistical Modeling
                                     which I enjoyed most. I also learned people management and how to successfully
-                                    run a business.</p>
+                                    run a business (theoretically).</p>
                             </div>
                         </div>
                         <div className="col-sm-4 col-xs-12">
@@ -132,7 +132,7 @@ export default class Resume extends Component{
                                 <p><span className="glyphicon glyphicon-map-marker"></span>
                                     National College “George Cosbuc”, Bistrita- Nasaud</p>
                                 <p className="description"><span className="glyphicon glyphicon-pencil"></span>
-                                    In highschool I've always been an A+ student, "geek of the class".
+                                    In highschool I've always been an A+ student.
                                     I enjoyed very much studying Mathematics and Biology; won several competitions in
                                     this regard. In the first two years I studied Informatics (Basic C++).</p>
                             </div>
